@@ -27,9 +27,9 @@
 
 .left .my-img{
 	text-align: center;
-	padding: 20px;
-	padding-top: 50px;
-	padding-bottom: 30px;
+	
+	padding-top: 10px;
+	padding-bottom: 10px;
 	
 }
 
@@ -46,9 +46,8 @@
 	letter-spacing: 5px;
 	
 	color: #111644;
-	
 	text-align: center;
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 }
 
 
@@ -169,20 +168,26 @@ a {
 }
 
 
-.header .name{
-	font-size: 52px;
+.header .formation{
+	font-size: 34px;
 	
 	font-weight: 700;
 	color: #111644;
 }
 
-.header .formation{
+/* .header .formation{
 	font-weight: 300;
 	font-size: 25px;
 
 
+} */
+.name {
+	font-size: 22px;
+	font-weight: 700;
+	color: #111644;
+	text-align: center;
+	margin-bottom:70px;
 }
-
 
 .right-side{
 	padding: 15px;
