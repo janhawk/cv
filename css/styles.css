@@ -234,8 +234,26 @@ a {
 }
 
 
-body{
-	background: linear-gradient( #433992, #22051e);
+body {
+    width: 100%;
+    height: 100vh;
+    color: white;
+    background: linear-gradient(-45deg, #e70202, #3ce7ae, #147ba0, #0a4377);
+    background-size: 400% 400%;
+    position: relative;
+    animation: image 10s ease-in-out infinite;
+    
+}
+@keyframes image {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
 }
 .p .info-cont{
 	padding-right: 50px;
